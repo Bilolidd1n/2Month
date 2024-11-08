@@ -12,13 +12,13 @@ class Fish:
         
     def feed(self):
         self.hunger = False
-        print(f"{self.name} накормлена!")
+        print(f"{self.name} накормлена")
 
     def hunger(self):
         if self.hunger:
-            print(f"{self.name} голодна!")
+            print(f"{self.name} голодна")
         else:
-            print(f"{self.name} сыта!")
+            print(f"{self.name} сыта")
 
 class GoldFish(Fish):
     def __init__(self, name):
